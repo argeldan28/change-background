@@ -13,18 +13,18 @@ export class AppComponent implements OnInit{
   title = 'change-background';
 
   bgColor: string[] = [
-    '#8B4513',  // SaddleBrown (marrone caldo)
-    '#6A5ACD',  // SlateBlue (blu lavanda)
-    '#D2691E',  // Chocolate (cioccolato)
-    '#3CB371',  // MediumSeaGreen (verde mare)
-    '#FFD700',  // Gold (oro)
-    '#FF6347',  // Tomato (rosso corallo)
-    '#4682B4',  // SteelBlue (blu acciaio)
-    '#2F4F4F',  // DarkSlateGray (grigio scuro)
-    '#FF4500',  // OrangeRed (rosso aranciato)
-    '#B22222',  // FireBrick (mattoni ardenti)
+    '#8B4513',  
+    '#6A5ACD', 
+    '#D2691E',  
+    '#3CB371',  
+    '#FFD700',  
+    '#FF6347',  
+    '#4682B4',  
+    '#2F4F4F',  
+    '#FF4500',  
+    '#B22222',  
   ];
-  currentColor: string = 'gray';
+  currentColor: string = '#808080';
 
 
   ngOnInit(): void 
